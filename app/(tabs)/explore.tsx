@@ -40,7 +40,10 @@ export default function TabTwoScreen() {
           source={require('@/assets/images/dubai-chewy.jpg')}
           style={styles.headerImage}
         />}>
-
+      <Image style={styles.logo}
+        source={{
+          uri: "https://i0.wp.com/everyday.codes/wp-content/uploads/2019/06/react-native-1024x631-1024x631.png?resize=680%2C419&ssl=1"
+        }} />
       <View style={styles.iconContainer}>
         <AntDesign name="plus" size={40} color="#f1f1f1" />
         <AntDesign name="minus" size={40} color="#f1f1f1" />
@@ -104,5 +107,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 6,
     marginTop: 20
+  },
+  logo: {
+    width: 66,
+    height: 58
   }
 });
