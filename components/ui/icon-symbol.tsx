@@ -20,6 +20,7 @@ const MAPPING = {
   'chevron.right': 'chevron-right',
   'person.crop.circle.fill': 'account-circle',
   'person.fill': 'person',
+  'plusminus': 'calculate'
 } as IconMapping;
 
 /**
